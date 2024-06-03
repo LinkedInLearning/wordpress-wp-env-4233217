@@ -1,32 +1,25 @@
-# WordPress-Entwicklung mit wp-env
+# Lokale WordPress-Entwicklungsumgebung mit wp-env
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `WordPress-Entwicklung mit wp-env`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
 ![COURSENAME][lil-thumbnail-url] 
 
-
-[COURSEDESCRIPTION]
-
-## Anleitung
-
-Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Ausklappmenü "Branch: ..." in GitHub um zwischen den unterschiedlichen Branches hin und her zu wechseln bzw. um bei einem spezifischen Status einzusteigen. Oder Sie fügen `/tree/BRANCH_NAME` der URL hinzu um direkt in den gewünschten Branch zu wechseln.
-
-
 ## Installation
+Um die Übungsdateien für diesen Kurs nutzen zu können, haben Sie drei Möglichkeiten:
+1. _(einfach)_ Klicken Sie auf den grünen Button "Code" und dann auf "Download ZIP"
+2. _(mittel)_ klonen Sie dieses Repo mit ```
+git clone https://github.com/LinkedInLearning/docker-esst-2501813.git```
+3. _(fortgeschritten)_ forken Sie das Repo und klonen es dann (z.B. mit ssh)
 
-1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
-2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+Nachdem Sie die Dateien lokal vorliegen haben, wechseln Sie in der Kommandozeile in das Verzeichnis, und installieren Sie die Abhängigkeiten mit 
+```
+npm install
+```
 
-### Autor
-
-**[Name hier eintragen]**
-
-_[Berufsbezeichnung hier eintragen]_
-
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
-
-[0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+## Nutzung
+Um Ihre lokale Entwicklungsumgebung zu starten, tippen Sie
+```
+npm run up
+```
+Beim ersten Mal dauert der Prozess einige Minuten, ab dem zweiten Mal geht es deutlich schneller.
+Sobald wp-env vollständig gestartet, können Sie mit Ihrem Browser auf http://localhost:8888 zugreifen.
