@@ -32,5 +32,6 @@ Sobald wp-env vollständig gestartet, können Sie mit Ihrem Browser auf http://l
 _Medienpädagoge_
 
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/thomas-rose) an.
+
 [lil-course-url]: https://www.linkedin.com/learning/wordpress-entwicklung-mit-wp-env
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQGRyTAlcfHnIQ/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1724828106333?e=2147483647&v=beta&t=2dY83_nqrzunXdAd4wnAewHnu_3bJEOO3Fs7biKMTm4
